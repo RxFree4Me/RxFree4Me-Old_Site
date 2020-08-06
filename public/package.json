@@ -1,0 +1,15 @@
+{
+  "name": "@rxfree4me/legacy-site",
+  "version": "1.0.0",
+  "description": "RxFree4Me.com legacy WordPress site, migrated to Vercel for a hosting solution that isn't overkill and much easier to make quick edits to.",
+  "main": "index.html",
+  "repository": "https://github.com/RxFree4Me/RxFree4Me-Old_Site.git",
+  "author": "Branden Dane <Branden@DaneTheory.com> (DaneTheory.com)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "deploy:staging": "now",
+    "deploy:prod": "now --prod",
+    "build": "echo 'build'"
+  }
+}
